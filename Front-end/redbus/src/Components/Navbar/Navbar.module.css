@@ -1,0 +1,17 @@
+.Navbar,.LeftContainer,.RightContainer{
+    border: 1px solid black;
+}
+
+.Navbar {
+    width: 100vw;
+    height: 60px;
+    /* color: white; */
+    background-color:#d84f57;
+}
+.Navbar{
+    display: flex;
+}
+.LeftContainer,.RightContainer{
+    width: 50%;
+    height:100%;
+}
