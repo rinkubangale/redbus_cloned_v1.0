@@ -39,7 +39,7 @@ export const Navbar = () => {
         </div>
       </div>
       <div className={styles.Right_container}>
-        <div >
+        <div> 
           <Link to="/help" className={styles.Right_list}>
             Help
           </Link>

@@ -2,7 +2,7 @@ import styles from './Corporate.module.css';
 
 export const Corporate = () => {
     return (
-      <div className={styles.Container}>
+      <div className={styles.Corporate_container}>
         <div className={styles.Top_container}>
           {/* <div> */}
           <div className={styles.Top_text}>
@@ -43,22 +43,22 @@ export const Corporate = () => {
             <div className={styles.Inline_text}>
               <div className={styles.Number_cover}>2</div>
               <span>
-                Every month, the company fills the rPool wallets of all
-                employees who sign up as ride-takers on the rPool app
+                Employees who have signed up as ride-givers will create their
+                carpool rides on rPool for daily commutes to the office
               </span>
             </div>
             <div className={styles.Inline_text}>
               <div className={styles.Number_cover}>3</div>
               <span>
-                Every month, the company fills the rPool wallets of all
-                employees who sign up as ride-takers on the rPool app
+                Based on their routes, the rPool app matches riders who can
+                carpool together to work
               </span>
             </div>
             <div className={styles.Inline_text}>
               <div className={styles.Number_cover}>4</div>
               <span>
-                Every month, the company fills the rPool wallets of all
-                employees who sign up as ride-takers on the rPool app
+                On ride completion, the fares are automatically deducted from
+                ride-takers’ rPool wallets, allowing for cash-free transactions
               </span>
             </div>
           </div>

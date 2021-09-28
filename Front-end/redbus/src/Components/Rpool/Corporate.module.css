@@ -1,10 +1,11 @@
 .Inline_text,.Top_container{
     display: inline-flex;}
-.Container{
+.Corporate_container,.Raws_container{
     padding:4em 7em ;
     font-size: 18px;
     line-height: 30px;
     color:#3e3e52;
+
 
 }
 .Top_container{
@@ -39,8 +40,9 @@
 }
 
 .Number_cover{
-    height: 25px;
-    width: 25px;
+    height: 28px;
+    width: 28px;
+    font-weight: bold;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -52,4 +54,8 @@
 }
 .Number_cover+span{
     padding-left: 1%;
+}
+
+.Raws_container{
+    background-color:#f7f7f7 !important;
 }
