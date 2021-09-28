@@ -32,7 +32,6 @@ export default function Travel() {
                     </div>
                     <div className='tac'>
                         <div className='seo-header'>Other</div>
-                            <a>Other</a>
                             <a>GSRTC</a>
                             <a>RSRTC</a>
                             <a>KTCL</a>
@@ -41,7 +40,6 @@ export default function Travel() {
                     </div>
                     <div className='tac'>
                         <div className='seo-header'>Tempo Traveller in Cities</div>
-                        <a>Tempo Traveller in Cities</a>
                         <a>Tempo traveller in Bangalore</a>
                         <a>Tempo traveller in Chennai</a>
                         <a>Tempo traveller in Mumbai</a>
