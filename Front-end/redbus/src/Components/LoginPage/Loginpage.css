@@ -1,0 +1,177 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.main_div{
+    width:100%;
+    height:100%;
+}
+.img50{
+    width:50%;
+    /* border:4px solid yellow; */
+   
+}
+
+.main_cont{
+    margin:auto;
+    width:50%;
+    height:480px;
+    display: flex;
+    border:2px solid black;
+}
+.img50 img{
+    height:100%;
+    width:100%;
+    padding: 3px;
+    display:inline;
+}
+.img50 .title1{
+    margin-top:-450px;
+  margin-left:25px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+ 
+}
+.img50 .title2{
+    margin-left:25px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+  
+}
+.detail50{
+    /* border:2px solid red; */
+    width:50%;
+}
+.first_cont{
+    margin-top:20px;
+    display: flex;
+}
+.cross{
+    margin-left:230px;
+}
+.cross button{
+    background:none;
+    border:none;
+}
+.first_cont .logo img{
+    margin-left:5px;
+}
+.first_cont .cross img{
+    width:15px; height:15px;
+  
+}
+.cont2{
+    /* border:2px solid red; */
+    color:#d84f57;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    margin: 5px 13px;
+}
+.input{
+    /* border:2px solid blue;   */
+    width:90%; 
+    margin:auto;
+   margin-top:30px;
+}
+.input input{
+    width:100%;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius:5px;
+ 
+}
+.otp{
+    /* border:2px solid rgb(211, 101, 11); */
+    width:90%; 
+    margin:auto;
+    margin-top:30px;
+   
+    
+}
+.otp button{
+    border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:9px;
+    width:100%;
+    height: 45px;
+    color:white;
+    background-color:#d84f57;
+    padding:4px;
+    border:none;
+   
+}
+.heading{
+    display:flex;
+    /* border:1px solid orange; */
+    width:65%;
+    margin:auto;
+    font-size:13px;
+    margin-top:20px;
+}
+.google_signin{
+    /* border:1px solid black; */
+    width:60%;
+    height:40px;
+    margin:auto;
+    margin-top: 30px;
+}
+.google_signin button{
+    width:100%;
+    height:100%;
+    background-color:#1A73E8;
+    border-radius: 5px;
+    border:none;
+
+}
+.sign_in{
+    display:flex;
+    align-items:center;
+    margin-left:10px;
+   
+}
+.sign_in img{
+    width:27px; height:27px;
+    padding:1px;
+}
+.sign_in h2{
+    font-size:12px;
+    margin-left:8px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fb_signin{
+    border:1px solid black;
+    width:45%;
+    height:50px;
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.fb_signin button{
+    width:100%;
+    height:100%;
+    background-color:white;
+    border-radius: 5px;
+    border:none;
+
+}
+.fbsign_in{
+    display:flex;
+    align-items:center;
+   
+}
+.fbsign_in img{
+    width:20px; height:20px;
+    margin:10px;
+    padding:1px;
+}
+.fbsign_in h2{
+    font-size:14px;
+    margin-left:2px;
+  color:rgb(39, 39, 122);
+  font-family: 'Montserrat', sans-serif;
+}
