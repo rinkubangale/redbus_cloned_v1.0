@@ -1,0 +1,74 @@
+.footerDiv{
+    background-color: #1b2330;
+    font-family: Montserrat ;
+    color:#eee;
+    display: flex;
+    padding: 15px 0px;
+}
+
+.row {
+    margin-right: 60px;
+    text-align: left;
+}
+
+.footer-links {
+    font-weight: 700;
+    margin-bottom: 19px;
+    margin-left: 110px;
+    color: #797979;
+}
+
+.rights-cont {
+    width: 335px;
+    line-height: 27px;
+    margin-right: 48px;
+    margin-bottom: 1.5em;
+}
+
+a {
+    display: block;
+    color: #d7d7d7;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-color: transparent;
+}
+
+.dib {
+    font-weight: 700;
+    margin-bottom: 19px;
+    color: #797979;
+}
+
+.socialMedia{
+    display: flex;
+}
+
+.icon-Facebook {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -120px;
+    width: 47px;
+    height: 47px;
+}
+
+.icon-Twitter {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -167px;
+    width: 47px;
+    height: 47px;
+}
+
+.twittericon {
+    margin-left: 8px;
+}
+
+.fbicon,
+.twittericon {
+    border: none;
+    display: inline-block;
+    background-repeat: no-repeat;
+}

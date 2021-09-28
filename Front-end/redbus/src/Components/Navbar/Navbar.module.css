@@ -1,35 +1,36 @@
-.Navbar,
+/* .Navbar,
 .Left_container,
-.Right_container,.Left_inner_div {
+.Right_container,
+.Left_inner_div,
+.Right_inner_div,
+.Show_booking {
   border: 1px solid black;
-}
+} */
 
 .Navbar {
   width: 100vw;
   height: 60px;
-  background-color: #d84f57;   
+  background-color: #d84f57;
 }
 .Navbar {
-  display: flex;
-  font-size: calc(1em + 1vw) 
+  font-size: calc(1em + 1vw);
 }
 
-@media(min-width:800px){
-    .Navbar{
-        font-size:16px;
-        
-    }
-    .Left_inner_div ul>li{
-    margin:1em;
+@media (min-width: 800px) {
+  .Navbar {
+    font-size: 16px;
+  }
+  .Left_inner_div ul > li {
+    margin: 1em;
+  }
 }
-}
-@media (max-width:799px) {
-    .Navbar{
-        font-size:12px;
-    }
-    .Left_inner_div ul>li{
-    margin:0.4em;
-}
+@media (max-width: 799px) {
+  .Navbar {
+    font-size: 12px;
+  }
+  .Left_inner_div ul > li {
+    margin: 0.4em;
+  }
 }
 
 .Left_container,
@@ -37,43 +38,128 @@
   height: 100%;
 }
 
-.Navbar,.Left_list,.Right_list{
-    color: white;
+.Navbar,
+.Left_list,
+.Right_list {
+  color: white;
 }
 
 .Left_container,
 .Right_container,
-ul,.Left_inner_div,.Right_container {
+ul,
+.Left_inner_div,
+.Right_container,
+.Right_inner_div,
+.Navbar,
+.User_div,
+.Manage_booking_align,
+.Show_login {
   display: flex;
 }
 
-
-.Left_container{
-    justify-content:left;
-    width:60%;
+.Left_container {
+  justify-content: left;
+  width: 60%;
 }
-
 
 .Right_container {
-    width: 40%;
-    align-items: center;
-    justify-content:space-evenly;
-
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.Right_inner_div {
+  /* justify-content: space-evenly; */
+  width: 50%;
 }
 
-.Left_inner_div{
-    width: 60%;
-    justify-content:space-evenly;
+.Left_inner_div {
+  width: 60%;
+  justify-content: space-evenly;
 }
 
-ul {
+ul,
+.Show_booking {
   list-style-type: none;
+}
+ul,
+.Manage_booking_align {
   align-items: center;
 }
-.Left_list,.Right_list{
+.Left_list,
+.Right_list {
   text-decoration: none;
 }
 
-.Left_inner_div ul>li{
-    margin:1em;
+.Left_inner_div ul > li {
+  margin: 1em;
+}
+
+.Manage_booking {
+  width: 25%;
+}
+.Right_container > div {
+  padding: 0% 2%;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+
+.Manage_booking_head {
+  color: #737373;
+  
+}
+
+.Show_booking {
+  padding-left: 0.5%;
+  margin-top: 10px;
+  width: 12%;
+  height: auto;
+  position: absolute;
+}
+
+.Show_login,
+.Show_booking {
+  border: 1px solid rgb(226, 223, 223);
+  color: black;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+
+
+}
+
+.Show_booking > li {
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 0%;
+}
+.User_div {
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Manage_booking_align {
+  justify-content: space-evenly;
+}
+
+.Expand_arrow {
+  width: 15%;
+  height: 15%;
+}
+.Expand_arrow1 {
+  width: 10%;
+  height: 10%;
+}
+.User_image {
+  width: 35%;
+}
+.Show_login {
+  right: 10%;
+  margin-top: 20px;
+  padding-left: 0.5%;
+  position: absolute;
+  /* border: 1px solid black; */
+  font-family: "Montserrat", sans-serif;
+
+  width: 110px;
+  height: 60px;
+  align-items: center;
 }

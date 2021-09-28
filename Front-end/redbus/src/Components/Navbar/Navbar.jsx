@@ -1,7 +1,11 @@
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [expandBooking, setExpandBooking] = useState(false);
+  const [expandLogin, setExpandLogin] = useState(false);
+
   return (
     <div className={styles.Navbar}>
       <div className={styles.Left_container}>
@@ -35,19 +39,57 @@ export const Navbar = () => {
         </div>
       </div>
       <div className={styles.Right_container}>
-        <div>
+        <div> 
           <Link to="/help" className={styles.Right_list}>
             Help
           </Link>
         </div>
-        <div>
-          <Link to="manage_booking" className={styles.Right_list}>
-            Manage Booking
-          </Link>
+        <div
+          
+          className={styles.Manage_booking}
+        >
+          <div
+            onClick={() => {
+              setExpandBooking(!expandBooking);
+              setExpandLogin(false);
+            }}
+            className={styles.Manage_booking_align}
+          >
+            <div>Manage Booking</div>
+            <img
+              className={styles.Expand_arrow1}
+              src="/expand_arrow.png"
+              alt=""
+            />
+          </div>
+          {expandBooking ? (
+            <div className={styles.Show_booking}>
+              <li className={styles.Manage_booking_head}>Bus Tickets</li>
+              <li>Cancel</li>
+              <li>Change Travel Date</li>
+              <li>Show My Ticket</li>
+              <li>Email/Sms</li>
+            </div>
+          ) : (
+            <></>
+          )}
         </div>
-        <div>
-          <img src="" alt="" />
-          Image
+        <div
+          onClick={() => {
+            setExpandLogin(!expandLogin);
+            setExpandBooking(false);
+          }}
+          className={styles.User_div}
+        >
+          <img className={styles.User_image} src="/user.png" alt="" />
+          <img className={styles.Expand_arrow} src="/expand_arrow.png" alt="" />
+          <div>
+            {expandLogin ? (
+              <div className={styles.Show_login}>Sign In/ Sign Up</div>
+            ) : (
+              <></>
+            )}
+          </div>
         </div>
       </div>
     </div>
