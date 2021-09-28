@@ -6,24 +6,21 @@ export const RAWs = () => {
       <div className={styles.Top_container}>
         {/* <div> */}
         <div className={styles.Top_text}>
-          <h2>rPool Corporate+, exclusive for Corporates</h2>
+          <h2>rPool for RWAs</h2>
+
           <p>
-            <b>
-              Say “goodbye” to getting frustrated with traffic and road rage and
-              say “hello” to arriving fresh to work every morning.
-            </b>
-          </p>
-          <p>
-            rPool Corporate+ is an exclusive bikepool and carpool model for
-            corporates. rPool partners with corporates to provide carpooling and
-            bikepooling as an alternative to existing modes of employee commute.
-            rPool Corporate+ pools employees commuting in the same routes into a
-            single ride, allowing them to travel smarter to work, save on
-            commute costs, and make connections along the way.
+            An exclusive model for Gated Communities where we offer Carpooling
+            and Bikepooling as a safer, smarter and reliable mode of commute.
+            Making commute to work more economical and hassle-free for the
+            residents.
           </p>
         </div>
         <div>
-          <img src="https://st.redbus.in/Images/rpools/corporates.svg" alt="" />
+          <img
+            className={styles.Raw_image}
+            src="https://st.redbus.in/Images/rpools/rwa.svg"
+            alt=""
+          />
         </div>
         {/* </div> */}
       </div>
