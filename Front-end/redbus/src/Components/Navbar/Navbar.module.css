@@ -47,7 +47,7 @@
 
 .Left_container,
 .Right_container,
-ul,
+.Left_ul,
 .Left_inner_div,
 .Right_container,
 .Right_inner_div,
@@ -80,11 +80,11 @@ ul,
   justify-content: space-evenly;
 }
 
-ul,
+.Left_ul,
 .Show_booking {
   list-style-type: none;
 }
-ul,
+.Left_ul,
 .Manage_booking_align {
   align-items: center;
 }
@@ -107,7 +107,6 @@ ul,
 
 .Manage_booking_head {
   color: #737373;
-  
 }
 
 .Show_booking {
@@ -124,8 +123,6 @@ ul,
   color: black;
   background-color: white;
   box-shadow: 1px 1px 8px rgb(0, 0, 0);
-
-
 }
 
 .Show_booking > li {
@@ -160,8 +157,7 @@ ul,
   position: absolute;
   /* border: 1px solid black; */
   font-family: "Montserrat", sans-serif;
-
-  width: 110px;
+  width: 140px;
   height: 60px;
   align-items: center;
 }

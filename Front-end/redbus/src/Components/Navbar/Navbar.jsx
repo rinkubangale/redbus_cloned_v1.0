@@ -2,7 +2,7 @@ import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export const Navbar = () => {
+export const Navbar = ({ showLogin, setShowLogin }) => {
   const [expandBooking, setExpandBooking] = useState(false);
   const [expandLogin, setExpandLogin] = useState(false);
 
@@ -10,7 +10,7 @@ export const Navbar = () => {
     <div className={styles.Navbar}>
       <div className={styles.Left_container}>
         <div className={styles.Left_inner_div}>
-          <ul>
+          <ul className={styles.Left_ul}>
             <li>
               <Link to="/">
                 <img
@@ -39,15 +39,12 @@ export const Navbar = () => {
         </div>
       </div>
       <div className={styles.Right_container}>
-        <div> 
+        <div>
           <Link to="/help" className={styles.Right_list}>
             Help
           </Link>
         </div>
-        <div
-          
-          className={styles.Manage_booking}
-        >
+        <div className={styles.Manage_booking}>
           <div
             onClick={() => {
               setExpandBooking(!expandBooking);
@@ -85,7 +82,7 @@ export const Navbar = () => {
           <img className={styles.Expand_arrow} src="/expand_arrow.png" alt="" />
           <div>
             {expandLogin ? (
-              <div className={styles.Show_login}>Sign In/ Sign Up</div>
+              <div className={styles.Show_login} onClick={() => { setShowLogin(!showLogin); console.log(showLogin)}}>Sign In/ Sign Up</div>
             ) : (
               <></>
             )}

@@ -1,0 +1,7 @@
+.banner_image{
+    height: 450px;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    background-repeat: round;
+}
