@@ -9,43 +9,43 @@ export default function footer() {
                 <div className='row'>
                     <div className='dib'>About redBus</div>
                     <div>
-                        <a>About Us</a>
-                        <a>Contact Us</a>
-                        <a>Mobile Version</a>
-                        <a>redBus on Mobile</a>
-                        <a>Sitemap</a>
-                        <a>Offers</a>
+                        <a href='#'>About Us</a>
+                        <a href='#'>Contact Us</a>
+                        <a href='#'>Mobile Version</a>
+                        <a href='#'>redBus on Mobile</a>
+                        <a href='#'>Sitemap</a>
+                        <a href='#'>Offers</a>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='dib'>Info</div>
                     <div>
-                        <a>T & C </a>
-                        <a>Privacy Policy</a>
-                        <a>FAQ </a>
-                        <a>Blog </a>
-                        <a>Bus Operator Registration</a>
-                        <a>Agent Registration</a>
-                        <a>Insurance Partner</a>
-                        <a>User Agreement</a>
+                        <a href='#'>T & C </a>
+                        <a href='#'>Privacy Policy</a>
+                        <a href='#'>FAQ </a>
+                        <a href='#'>Blog </a>
+                        <a href='#'>Bus Operator Registration</a>
+                        <a href='#'>Agent Registration</a>
+                        <a href='#'>Insurance Partner</a>
+                        <a href='#'>User Agreement</a>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='dib'>Global Sites</div>
                     <div>
-                        <a>India</a>
-                        <a>Singapore</a>
-                        <a>Malaysia</a>
-                        <a>Indonesia</a>
-                        <a>Peru</a>
-                        <a>Colombia</a>
+                        <a href='#'>India</a>
+                        <a href='#'>Singapore</a>
+                        <a href='#'>Malaysia</a>
+                        <a href='#'>Indonesia</a>
+                        <a href='#'>Peru</a>
+                        <a href='#'>Colombia</a>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='dib'>Our Partners</div>
                     <div>
-                        <a>Goibibo</a>
-                        <a>Makemytrip</a>
+                        <a href='#'>Goibibo</a>
+                        <a href='#'>Makemytrip</a>
                     </div>
                 </div>
                 <div className='rights-cont'>
@@ -53,7 +53,7 @@ export default function footer() {
                         <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png" alt="logo" />
                     </div>
                     <div>
-                            <a>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</a>
+                            <a href='#'>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</a>
                             <div className="socialMedia">
                                 <a href="">
                                     <span className='fbicon icon-Facebook'></span>
@@ -63,7 +63,7 @@ export default function footer() {
                                 </a>
                             </div>
                     </div>
-                    <a>
+                    <a href='#'>
                         Ⓒ 2021 ibibogroup All rights reserved
                     </a>
                 </div>
