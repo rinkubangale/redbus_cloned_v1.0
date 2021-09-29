@@ -1,6 +1,77 @@
 .parentContainer{
+    margin-top: 4rem;   
     height: 630px;
 }
-.bg_image{
+.flexContainer{
+     width: 90%;
+     margin: 50px auto;
     display: flex;
+    justify-content: space-around;
+   
+}
+
+.left{
+
+margin-left: 100px;
+display: flex;
+flex-direction: column;
+}
+
+.heading{
+    font-size: 30px;
+    line-height: 1.1em;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+.message{
+    color: #4a4a4a;
+    font-size: 14px;
+    width: 387px;
+    font-weight: 300;
+    margin-top: 31px; 
+    font-family: Montserrat;
+}
+.spanEle{
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 13px;
+}
+.inpTel{
+    display: flex;
+    margin-top: 0.1em;
+    height: 23px; 
+}
+.inpTel > input{
+  margin-left: 10px;
+    width: 50%;
+    line-height: 1em; 
+     padding: 0px;
+}
+.codeTel{
+    float: left;
+    width: 23%;
+     
+}
+.btn{
+    margin-top: 1rem;
+}
+.btn > button {
+
+    display: inline-block;
+     height: 30px;
+    padding: 6px 16px 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .1s;
+    border: none;
+    text-align: center;
+    background-color: #d84e55;
+    color: #fff;
+    width: 40%;
+   
 }

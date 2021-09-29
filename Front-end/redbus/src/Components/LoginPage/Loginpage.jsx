@@ -3,7 +3,7 @@ import React from "react";
 
 import "./Loginpage.css";
 
-export default function Loginpage() {
+export default function Loginpage({showLogin,setShowLogin}) {
   return (
     <div className="main_div">
       <div className="main_cont">
@@ -27,7 +27,7 @@ export default function Loginpage() {
               <img src="https://s3.rdbuz.com/Images/logo_r.png" alt=""></img>
             </div>
             <div className="cross">
-              <button>
+              <button onClick={()=>{setShowLogin(!showLogin)}}>
                 <img src="   https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt=""></img>
               </button>
             </div>
