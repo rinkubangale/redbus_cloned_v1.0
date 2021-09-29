@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.blue{
+width: 100%;
+height: 60px;
+background-color: #3E3E52;
+display:flex;
+justify-content: center;
+
+}
+.blue ul{
+    text-decoration: none;
+}
+.blue ul li{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin:20px;
+    list-style-type: none;
+  
+
+    
+}
