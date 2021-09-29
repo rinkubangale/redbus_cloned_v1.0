@@ -69,11 +69,13 @@
 .Faq_container{
     /* border: 1px solid black; */
     padding-left: 7em;
-    width:80%;
+    width:92%;
     margin-bottom: 1%;
 }
 .Faq_container>h2{
     font-size:32px;
+    padding: 40px 0px;
+
 }
 
 .Faq_head{
@@ -103,3 +105,6 @@
     font-size: 14px !important;
 }
 
+.Faq_inner_text{
+    padding-bottom: 20px;
+}

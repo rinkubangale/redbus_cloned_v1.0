@@ -28,7 +28,7 @@ export const FAQ = () => {
             <div>
               <h5> What is rPool? </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 Download the redBus App, tap on the rPool tab, next complete and
                 activate your rPool profile to start riding.
@@ -37,7 +37,7 @@ export const FAQ = () => {
             <div>
               <h5> What is carpooling? </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 Carpooling is a smart way to commute by sharing just one
                 vehicle. A car owner, offers ride and chooses fellow riders who
@@ -52,7 +52,7 @@ export const FAQ = () => {
                 How is rPool different than other carpooling cab services?{" "}
               </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 rPool is not a cab service. It is an online carpool platform
                 that connects Driver(s) and Rider(s). rPool caters exclusively
@@ -87,7 +87,7 @@ export const FAQ = () => {
             <div>
               <h5> How can I register for the service? </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 Download the redBus App, tap on the rPool tab, next complete and
                 activate your rPool profile to start riding.
@@ -98,7 +98,7 @@ export const FAQ = () => {
                 Can I register on rPool using my Google / Facebook account?
               </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 Yes, you can register using either your Google or Facebook
                 account.
@@ -107,7 +107,7 @@ export const FAQ = () => {
             <div>
               <h5>How is the verification done?</h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 We send an email verification to your corporate email ID that
                 you provide us at the time of creation of your profile. You can
@@ -145,7 +145,7 @@ export const FAQ = () => {
             <div>
               <h5> How is payment handled on rPool? </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 rPool works on a system of prepaid points called rPool Points.
                 These points are agreed between a Driver and Rider before
@@ -158,7 +158,7 @@ export const FAQ = () => {
             <div>
               <h5> What is the default fare set by rPool? </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 rPool has a capping on fixation of maximum rPool points for
                 every kilometer to be travelled on a given Trip. The maximum
@@ -172,7 +172,7 @@ export const FAQ = () => {
             <div>
               <h5>When and how do I pay for my Trip?</h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 With every successful Trip, points are automatically transferred
                 from Rider’s rPool Wallet to Driver’s rPool Wallet. We provide
@@ -208,7 +208,7 @@ export const FAQ = () => {
             <div>
               <h5> How secure is the system? </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 All users are required to verify their phone number and official
                 email id for registering with rPool. Aside from this, users can
@@ -223,7 +223,7 @@ export const FAQ = () => {
                 What if do not wish to travel with someone from the past?{" "}
               </h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 You are in control of every Trip. If you choose to not ride with
                 a Driver, you can simply choose to not send an invitation to
@@ -236,7 +236,7 @@ export const FAQ = () => {
             <div>
               <h5>Will my phone number be seen during the calls?</h5>
             </div>
-            <div>
+            <div className={styles.Faq_inner_text}>
               <p>
                 No, your contact number is hidden through call masking and will
                 not be visible to anyone.

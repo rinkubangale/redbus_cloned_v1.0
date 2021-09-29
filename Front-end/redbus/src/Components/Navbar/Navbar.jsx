@@ -1,10 +1,13 @@
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Loginpage from '../LoginPage/Loginpage';
 
 export const Navbar = () => {
   const [expandBooking, setExpandBooking] = useState(false);
   const [expandLogin, setExpandLogin] = useState(false);
+  const [showLogin,setShowLogin] = useState(false);
+
 
   return (
     <div className={styles.Navbar}>

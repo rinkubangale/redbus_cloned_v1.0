@@ -107,7 +107,6 @@
 
 .Manage_booking_head {
   color: #737373;
-  
 }
 
 .Show_booking {
@@ -124,8 +123,6 @@
   color: black;
   background-color: white;
   box-shadow: 1px 1px 8px rgb(0, 0, 0);
-
-
 }
 
 .Show_booking > li {
@@ -160,8 +157,7 @@
   position: absolute;
   /* border: 1px solid black; */
   font-family: "Montserrat", sans-serif;
-
-  width: 110px;
+  width: 140px;
   height: 60px;
   align-items: center;
 }
