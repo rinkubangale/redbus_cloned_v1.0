@@ -10,7 +10,7 @@ export const Navbar = () => {
     <div className={styles.Navbar}>
       <div className={styles.Left_container}>
         <div className={styles.Left_inner_div}>
-          <ul>
+          <ul className={styles.Left_ul}>
             <li>
               <Link to="/">
                 <img

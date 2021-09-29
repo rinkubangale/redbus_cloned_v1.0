@@ -47,7 +47,7 @@
 
 .Left_container,
 .Right_container,
-ul,
+.Left_ul,
 .Left_inner_div,
 .Right_container,
 .Right_inner_div,
@@ -80,11 +80,11 @@ ul,
   justify-content: space-evenly;
 }
 
-ul,
+.Left_ul,
 .Show_booking {
   list-style-type: none;
 }
-ul,
+.Left_ul,
 .Manage_booking_align {
   align-items: center;
 }
