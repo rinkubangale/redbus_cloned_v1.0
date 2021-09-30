@@ -1,0 +1,61 @@
+.parent{
+    min-height: 720px;
+    background-color: #f0f1f2;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+.cancelHeading{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: .34px;
+    color: #3e3e52;
+    text-align: center;
+    padding-top: 32px;
+}
+ .inputContainer{
+    display: flex;
+    justify-content: space-between ;
+    /* justify-content: center; */
+    
+}
+input{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    color: #3e3e52;
+    width: 328px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #747f8d;
+    background: #f0f1f2;
+    padding: 11px;
+    padding-left: 36px;
+    height: 36px;
+    
+}
+button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: .88px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 35%;
+    height: 100%;
+    margin-left: 65%;
+}
+.parentContainer{
+    margin-top: 70px;
+}
+.btn{
+    margin-top: 60px;
+}
