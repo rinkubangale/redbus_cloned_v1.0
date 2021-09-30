@@ -6,6 +6,7 @@
         "bus": "Raj Ratan Tours And Travels",
         "price": 1150,
         "type": "Volvo Multi-Axle Sleeper A/C (2+1)",
+        "rating":"3.5",
         "id": "1"
       },
       {
@@ -14,6 +15,7 @@
         "bus": "Intercity Dhariwal Travels",
         "price": 1200,
         "type": "A/C Sleeper (2+1)",
+        "rating":"2.5",
         "id": "2"
       },
       {
@@ -22,6 +24,7 @@
         "bus": "Hans Travels (I) Private Limited",
         "price": 1350,
         "type": "Bharat Benz A/C Sleeper (2+1)",
+        "rating":"4.6",
         "id": "3"
       },
       {
@@ -30,6 +33,7 @@
         "bus": "Verma Travels.",
         "price": 1000,
         "type": "NON A/C Sleeper (2+1)",
+        "rating":"3.5",
         "id": "4"
       },
       {
@@ -38,6 +42,7 @@
         "bus": "R B Travels",
         "price": 1350,
         "type": "A/C Sleeper (2+1)",
+        "rating":"4.5",
         "id": "5"
       },
       {
@@ -46,6 +51,7 @@
         "bus": "Hans Travels (I) Private Limited",
         "price": 1200,
         "type": "NON A/C Sleeper (2+1)",
+        "rating":"3.5",
         "id": "6"
       },
       {
@@ -54,6 +60,7 @@
         "bus": "R B Travels",
         "price": 1150,
         "type": "NON A/C Sleeper (2+1)",
+        "rating":"3.2",
         "id": "7"
       },
       {
@@ -62,6 +69,43 @@
         "bus": "Hans Travels (I) Private Limited",
         "price": 1000,
         "type": "NON A/C Sleeper (2+1)",
+        "rating":"2.7",
+        "id": "8"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Pune",
+        "bus": "Orange Tours and Travels Platinum",
+        "price": 400,
+        "type": "Volvo Multi-Axle Sleeper A/C (2+1)",
+        "rating":"3.2",
+        "id": "9"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Pune",
+        "bus": "Neeta tours and travels",
+        "price": 299,
+        "type": "Bharat Benz A/C Seater (2+1)",
+        "rating":"2.2"
+,        "id": "10"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Pune",
+        "bus": "N.T Akanksha Tourism",
+        "price": 511,
+        "type": "NON A/C Sleeper (2+1)",
+        "rating":"3.6",
+        "id": "7"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Pune",
+        "bus": "VRL Travels",
+        "price": 333,
+        "type": "Volvo Multi-Axle I-Shift A/C Sleeper (2+1)",
+        "rating":"3.1",
         "id": "8"
       }
     ]

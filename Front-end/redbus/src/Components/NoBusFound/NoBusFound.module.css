@@ -1,0 +1,13 @@
+.NoBus_container{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+.NoBus_container div>img{
+    margin-right: 4vw;
+}
+.NoBus_container div>h3{
+    padding-bottom: 20px;
+}
