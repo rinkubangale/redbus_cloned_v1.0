@@ -1,0 +1,46 @@
+.main-div{ 
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 0 20px;
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.aw{
+    margin: 0 auto;
+}
+
+.ah{
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #4a4a4a;
+}
+
+.awards-main{ 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 30px auto;
+    color: #8d8d8d;
+}
+
+.imgCont{
+    margin-bottom: 30px;
+} 
+
+.label_1{
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    width: 186px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 54px;
+    color: #4a4a4a ;
+    text-align: center;
+}

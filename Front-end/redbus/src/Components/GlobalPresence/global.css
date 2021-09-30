@@ -1,0 +1,97 @@
+.header1{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.main-body{ 
+    padding:0 20px;
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our_distribution_div {
+    padding-bottom: 10px;
+    padding-top: 40px;
+    background-color: #f1f1f1;
+}
+
+.country-flags {
+    margin: 25px 0;
+    float: left;
+}
+
+.flagicon {
+    border: none;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon-COL {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -614px;
+    width: 120px;
+    height: 80px;
+}
+.icon-IND {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -294px;
+    width: 121px;
+    height: 80px;
+}
+
+.icon-IDN {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -214px;
+    width: 121px;
+    height: 80px;
+}
+
+.icon-MYS {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -374px;
+    width: 158px;
+    height: 80px;
+}
+
+.icon-PER {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -454px;
+    width: 120px;
+    height: 80px;
+}
+
+.icon-SGP {
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -534px;
+    width: 121px;
+    height: 80px;
+}
+
+.flag-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 2.7px;
+    color: #737373;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.flag-cont {
+    text-align: center;
+    padding: 25px 100px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+li{
+    border: none;
+}

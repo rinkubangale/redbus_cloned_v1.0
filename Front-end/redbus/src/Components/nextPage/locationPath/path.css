@@ -1,0 +1,19 @@
+.sec-path {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 10px 15px 25px;
+    line-height: 14px;
+}
+.flex{
+    display: flex;
+    font-weight: 500;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.g-button {
+    border: 1px solid #3e3e52;
+    border-radius: 3px;
+    background-color: #f8f4f4;
+    padding: 5px 25px;
+    font-weight: 400;
+}

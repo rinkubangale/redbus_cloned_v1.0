@@ -7,7 +7,7 @@
      margin: 50px auto;
     display: flex;
     justify-content: space-around;
-   
+   position: relative;
 }
 
 .left{
@@ -47,10 +47,12 @@ flex-direction: column;
     width: 50%;
     line-height: 1em; 
      padding: 0px;
+     border: 1px solid;
 }
 .codeTel{
     float: left;
     width: 23%;
+    border: 1px solid;
      
 }
 .btn{
@@ -74,4 +76,18 @@ flex-direction: column;
     color: #fff;
     width: 40%;
    
+}
+
+.iconIPhone{
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 0;
+    width: 40px;
+    height: 40px;
+}
+
+.iconGoogle{
+    background-image: url(https://www.redbus.in/i/63f6a3d801cae05e26a753cbdc8e2dee.png);
+    background-position: 0 -80px;
+    width: 40px;
+    height: 40px;
 }

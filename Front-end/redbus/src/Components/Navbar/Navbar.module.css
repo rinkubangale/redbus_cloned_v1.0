@@ -11,6 +11,8 @@
   width: 100vw;
   height: 60px;
   background-color: #d84f57;
+  position: fixed;
+  z-index: 1;
 }
 .Navbar {
   /* font-size: calc(1em + 1vw); */

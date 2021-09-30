@@ -14,7 +14,7 @@ function FloatingSection() {
             <h4>Safety+ Program</h4>
           </div>
           <div className={styles.head}>
-            <p>A unique certification program to ensures safety in all buses</p>
+            <p style={{paddingTop:'25px', fontSize:'small' }}>A unique certification program to ensures safety in all buses</p>
           </div>
         </div>
         <div>

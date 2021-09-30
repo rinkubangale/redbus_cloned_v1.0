@@ -29,13 +29,13 @@ function Safety(){
       </div>
       <div className={styles.rightConatiner}>
         <h1>Safety+</h1>
-        <h3>Opt to Travel Safe with redBus</h3>
+        <h3 style={{float: 'left'}}>Opt to Travel Safe with redBus</h3>
         <span
           style={{ color: "blue", display: "inline-block", marginLeft: "14px" }}
         >
           Know more
         </span>
-        <p>
+        <p style={{ clear: 'both', padding: '25px 0' }}>
           Look for buses with &nbsp;{" "}<span className={styles.boldspan}> safety+ </span> &nbsp; tag while booking your journey
         </p>
         <div className={styles.lowerFlex}>

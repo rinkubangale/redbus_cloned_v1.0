@@ -62,7 +62,12 @@ export const Navbar = ({ showLogin, setShowLogin }) => {
           {expandBooking ? (
             <div className={styles.Show_booking}>
               <li className={styles.Manage_booking_head}>Bus Tickets</li>
-              <li>Cancel</li>
+
+              <li>
+                <Link to="/cancellation">
+                  Cancel
+                </Link>
+              </li>
               <li>Change Travel Date</li>
               <li>Show My Ticket</li>
               <li>Email/Sms</li>
@@ -82,7 +87,14 @@ export const Navbar = ({ showLogin, setShowLogin }) => {
           <img className={styles.Expand_arrow} src="/expand_arrow.png" alt="" />
           <div>
             {expandLogin ? (
-              <div className={styles.Show_login} onClick={() => { setShowLogin(!showLogin); console.log(showLogin)}}>Sign In/ Sign Up</div>
+              <div
+                className={styles.Show_login}
+                onClick={() => {
+                  setShowLogin(!showLogin);
+                }}
+              >
+                Sign In/ Sign Up
+              </div>
             ) : (
               <></>
             )}

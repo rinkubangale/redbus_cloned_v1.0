@@ -4,6 +4,9 @@ import { Navbar } from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/footer";
 import { HomePage } from "../Pages/HomePage";
 import { useState } from 'react';
+import { BusSearch } from "../Pages/busSearch";
+import { Cancel } from "../Components/HomePage/CancellationPage/CancelPage";
+import { Notfound } from '../Components/404/Notfound';
 
 export const Routes = () => {
 
@@ -18,6 +21,15 @@ export const Routes = () => {
         </Route>
         <Route path="/r_pool">
           <Rpool />
+        </Route>
+        <Route path="/busSearch">
+          <BusSearch />
+        </Route>
+        <Route path="/cancellation">
+          <Cancel />
+        </Route>
+        <Route>
+        <Notfound/>
         </Route>
       </Switch>
       <Footer />
