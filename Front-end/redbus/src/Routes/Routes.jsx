@@ -5,6 +5,7 @@ import Footer from "../Components/Footer/footer";
 import { HomePage } from "../Pages/HomePage";
 import { useState } from 'react';
 import { Cancel } from "../Components/HomePage/CancellationPage/CancelPage";
+import { Notfound } from '../Components/404/Notfound';
 
 export const Routes = () => {
 
@@ -23,6 +24,9 @@ export const Routes = () => {
         <Route path="/cancellation">
           <Cancel />
 
+        </Route>
+        <Route>
+        <Notfound/>
         </Route>
       </Switch>
       <Footer />
