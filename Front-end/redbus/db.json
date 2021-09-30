@@ -1,0 +1,68 @@
+{
+    "data": [
+      {
+        "to": "Mumbai",
+        "from": "Lucknow",
+        "bus": "Raj Ratan Tours And Travels",
+        "price": 1150,
+        "type": "Volvo Multi-Axle Sleeper A/C (2+1)",
+        "id": "1"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Lucknow",
+        "bus": "Intercity Dhariwal Travels",
+        "price": 1200,
+        "type": "A/C Sleeper (2+1)",
+        "id": "2"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Lucknow",
+        "bus": "Hans Travels (I) Private Limited",
+        "price": 1350,
+        "type": "Bharat Benz A/C Sleeper (2+1)",
+        "id": "3"
+      },
+      {
+        "to": "Mumbai",
+        "from": "Lucknow",
+        "bus": "Verma Travels.",
+        "price": 1000,
+        "type": "NON A/C Sleeper (2+1)",
+        "id": "4"
+      },
+      {
+        "to": "Nagpur",
+        "from": "Mumbai",
+        "bus": "R B Travels",
+        "price": 1350,
+        "type": "A/C Sleeper (2+1)",
+        "id": "5"
+      },
+      {
+        "to": "Nagpur",
+        "from": "Mumbai",
+        "bus": "Hans Travels (I) Private Limited",
+        "price": 1200,
+        "type": "NON A/C Sleeper (2+1)",
+        "id": "6"
+      },
+      {
+        "to": "Nagpur",
+        "from": "Mumbai",
+        "bus": "R B Travels",
+        "price": 1150,
+        "type": "NON A/C Sleeper (2+1)",
+        "id": "7"
+      },
+      {
+        "to": "Nagpur",
+        "from": "Mumbai",
+        "bus": "Hans Travels (I) Private Limited",
+        "price": 1000,
+        "type": "NON A/C Sleeper (2+1)",
+        "id": "8"
+      }
+    ]
+}
