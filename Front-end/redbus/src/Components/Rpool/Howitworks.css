@@ -105,12 +105,23 @@
 }
 .how_list ul{
     list-style: none;
+    display:flex;
+   
 }
+.how_list ul li::before{
+    content: "\2022";
+    color:rgb(56, 184, 124);
+    font-size: 30px;
+ 
+   margin-right:5px;
+   
+}
+
 .how_list ul li{
-    /* content: "\2022";
-    color: teal; */
-    width:40%;
+    
+    width:50%;
     margin-right: 40px;
+   
 }
 .how_off{
     border:1px solid grey; 

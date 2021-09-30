@@ -54,15 +54,15 @@ export default function Howitworks() {
 
             <div className="how_list">
               <ul>
-                <li>Open / Download redbus App</li>
-                <li>Go to rPool tab and activate your account</li>
+                <li>  Open / Download redbus App</li>
+                <li>  Go to rPool tab and activate your account</li>
               </ul>
             </div>
 
             <div className="how_list">
               <ul>
-                <li>Verify your account by your official mail ID</li>
-                <li>Use this account to find / offer ride</li>
+                <li>  Verify your account by your official mail ID</li>
+                <li>  Use this account to find / offer ride</li>
               </ul>
             </div>
 

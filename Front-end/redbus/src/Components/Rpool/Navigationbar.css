@@ -13,13 +13,14 @@ justify-content: center;
 }
 .blue ul{
     text-decoration: none;
+    display:flex;
 }
 .blue ul li{
     color:white;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 15px;
-    margin:20px;
+    margin:25px;
     list-style-type: none;
   
 
