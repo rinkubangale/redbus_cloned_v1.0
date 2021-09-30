@@ -4,7 +4,7 @@ import "./Divone.css";
 
 export default function Divone() {
   return (
-    <div className="main_cont">
+    <div className="main_container">
       <div className="outer">
         <div className="outstation_div">
           <img
@@ -38,19 +38,19 @@ export default function Divone() {
             <p> Bikepool & Carpool for Professionals</p>
           </div>
         </div>
-        <div className="t1">
+        <div className="t1_bh">
           <p>
             Intra-City services currently live in BANGALORE, HYDERABAD, PUNE,
             NEW DELHI – NCR and CHENNAI
           </p>
         </div>
-        <div className="t2">
+        <div className="t2_bh">
           <p>Outstation services currently live across India</p>
         </div>
       </div>
 
-      <div className="app_click">
-        <button className="btn1">
+      <div className="app_click_bh">
+        <button className="btn1_bh">
           <div>
             <img
               src="https://www.redbus.in/r-pool/images/googleplay.svg"
@@ -59,7 +59,7 @@ export default function Divone() {
           </div>
         </button>
 
-        <button className="btn2">
+        <button className="btn2_bh">
           <div>
             <img
               src="https://www.redbus.in/r-pool/images/ic_appstore.svg"
