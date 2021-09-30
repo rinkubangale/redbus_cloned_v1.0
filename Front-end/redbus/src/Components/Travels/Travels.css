@@ -18,7 +18,7 @@ ul {
     line-height: 20px;
     margin-bottom: 10px;
 }
-.li-tag > a{
+.li-tag>.a-tag2 {
     color: #444343;
     font-weight: 350;
     margin-bottom: 0%;
@@ -53,7 +53,7 @@ ul {
     color: #000 !important;
 }
 
-.tac > a{
+.tac >.a-tag2 {
     color: #000 !important;
 }
 
@@ -66,6 +66,8 @@ ul {
 }
 
 .tac {
+    display: flex;    
+    flex-direction: column;
     text-align: left;
     width: 20%;
 }
