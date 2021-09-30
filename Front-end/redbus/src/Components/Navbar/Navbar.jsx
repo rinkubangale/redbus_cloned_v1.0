@@ -82,7 +82,7 @@ export const Navbar = ({ showLogin, setShowLogin }) => {
           <img className={styles.Expand_arrow} src="/expand_arrow.png" alt="" />
           <div>
             {expandLogin ? (
-              <div className={styles.Show_login} onClick={() => { setShowLogin(!showLogin); console.log(showLogin)}}>Sign In/ Sign Up</div>
+              <div className={styles.Show_login} onClick={() => { setShowLogin(!showLogin) }}>Sign In/ Sign Up</div>
             ) : (
               <></>
             )}
