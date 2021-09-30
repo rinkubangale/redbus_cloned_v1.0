@@ -22,7 +22,7 @@
     /* justify-content: center; */
     
 }
-input{
+.input-tag{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: .3px;
@@ -38,7 +38,7 @@ input{
     height: 36px;
     
 }
-button{
+.btn{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.43;

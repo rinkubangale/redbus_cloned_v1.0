@@ -10,15 +10,15 @@ function Cancel() {
                     
                     <div className={styles.inputContainer}>
                         <div>
-                            <input   type="text" placeholder="ENTER TICKET NO" value=""></input>
+                            <input className='input-tag'   type="text" placeholder="ENTER TICKET NO" value=""></input>
                         </div>
                         <div>
-                            <input   type="text" placeholder="ENTER EMAIL" value=""></input>
+                            <input className='input-tag'   type="text" placeholder="ENTER EMAIL" value=""></input>
                         </div>
                     </div>
 
                     <div className={styles.btn}>
-                        <button>SELECT PASSENGERS</button>
+                        <button className="btn">SELECT PASSENGERS</button>
                     </div>
                 </div>
         </div>
