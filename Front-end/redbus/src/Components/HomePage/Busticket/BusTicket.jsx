@@ -1,7 +1,8 @@
 import React from 'react'
 import { LeftSection } from './LeftSection'
 import {Header} from './Header'
-import styles from './BusTicket.module.css'
+import styles from './BusTicket.module.css';
+import {ShowBusData} from './ShowBusData'
 function BusTicket(props) {
   const data = props.location.state.routedata;
   const date = props.location.state.date;
@@ -23,21 +24,16 @@ function BusTicket(props) {
       }, []);
     // console.log(busData,departure,arrival)
   return (
-    <div>
+    <div className={styles.busTicket_container}>
       <div><Header departure={departure} arrival={arrival} date = {date} /></div>
       <div className={styles.parentContainer}>
         <div className={styles.left}>
           <LeftSection />
         </div>
         <div className={styles.right}>
-          <h1>
-            {busData.map((e) => (
-              <div key={e.id}>
-                {e.bus}
-                {e.price}
-              </div>
-            ))}
-          </h1>
+          
+          <ShowBusData data={busData}/>
+
         </div>
       </div>
     </div>
