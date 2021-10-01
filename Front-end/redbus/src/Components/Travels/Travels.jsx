@@ -8,43 +8,43 @@ export default function Travel() {
                 <div className='seo-wrapper rest1 animate' style={{'display': 'flex'}}>
                     <div className='tac'>
                         <div className='seo-header'>Top Bus Routes</div>
-                        <a className='a-tag2' href='#'>Hyderabad to Bangalore Bus</a>
-                        <a className='a-tag2' href='#'>Bangalore to Chennai Bus</a>
-                        <a className='a-tag2' href='#'>Pune to Bangalore Bus</a>
-                        <a className='a-tag2' href='#'>Mumbai to Bangalore Bus</a>
-                        <a className='a-tag2' href='#'>{'More >'}</a>
+                        <div className='a-tag2' href='#'>Hyderabad to Bangalore Bus</div>
+                        <div className='a-tag2' href='#'>Bangalore to Chennai Bus</div>
+                        <div className='a-tag2' href='#'>Pune to Bangalore Bus</div>
+                        <div className='a-tag2' href='#'>Mumbai to Bangalore Bus</div>
+                        <div className='a-tag2' href='#'>{'More >'}</div>
                     </div>
                     <div className='tac'>
                         <div className='seo-header'>Top Cities</div>
-                        <a className='a-tag2' href='#'>Hyderabad Bus Tickets</a>
-                        <a className='a-tag2' href='#'>Bangalore Bus Tickets</a>
-                        <a className='a-tag2' href='#'>Chennai Bus Tickets</a>
-                        <a className='a-tag2' href='#'>Pune Bus Tickets</a>
-                        <a className='a-tag2' href='#'>{'More >'}</a>
+                        <div className='a-tag2' href='#'>Hyderabad Bus Tickets</div>
+                        <div className='a-tag2' href='#'>Bangalore Bus Tickets</div>
+                        <div className='a-tag2' href='#'>Chennai Bus Tickets</div>
+                        <div className='a-tag2' href='#'>Pune Bus Tickets</div>
+                        <div className='a-tag2' href='#'>{'More >'}</div>
                     </div>
                     <div className='tac'>
                         <div className='seo-header'>Top RTC's</div>
-                            <a className='a-tag2' href='#'>APSRTC</a>
-                            <a className='a-tag2' href='#'>MSRTC</a>
-                            <a className='a-tag2' href='#'>HRTC</a>
-                            <a className='a-tag2' href='#'>UPSRTC</a>
-                            <a className='a-tag2' href='#'>{'More>'}</a>
+                            <div className='a-tag2' href='#'>APSRTC</div>
+                            <div className='a-tag2' href='#'>MSRTC</div>
+                            <div className='a-tag2' href='#'>HRTC</div>
+                            <div className='a-tag2' href='#'>UPSRTC</div>
+                            <div className='a-tag2' href='#'>{'More>'}</div>
                     </div>
                     <div className='tac'>
                         <div className='seo-header'>Other</div>
-                            <a className='a-tag2' href='#'>GSRTC</a>
-                            <a className='a-tag2' href='#'>RSRTC</a>
-                            <a className='a-tag2' href='#'>KTCL</a>
-                            <a className='a-tag2' href='#'>PEPSU</a>
-                            <a className='a-tag2' href='#'>{'More>'}</a>
+                            <div className='a-tag2' href='#'>GSRTC</div>
+                            <div className='a-tag2' href='#'>RSRTC</div>
+                            <div className='a-tag2' href='#'>KTCL</div>
+                            <div className='a-tag2' href='#'>PEPSU</div>
+                            <div className='a-tag2' href='#'>{'More>'}</div>
                     </div>
                     <div className='tac'>
                         <div className='seo-header'>Tempo Traveller in Cities</div>
-                        <a className='a-tag2' href='#'>Tempo traveller in Bangalore</a>
-                        <a className='a-tag2' href='#'>Tempo traveller in Chennai</a>
-                        <a className='a-tag2' href='#'>Tempo traveller in Mumbai</a>
-                        <a className='a-tag2' href='#'>Tempo traveller in Hyderabad</a>
-                        <a className='a-tag2' href='#'>Tempo traveller in Ahmedabad</a>
+                        <div className='a-tag2' href='#'>Tempo traveller in Bangalore</div>
+                        <div className='a-tag2' href='#'>Tempo traveller in Chennai</div>
+                        <div className='a-tag2' href='#'>Tempo traveller in Mumbai</div>
+                        <div className='a-tag2' href='#'>Tempo traveller in Hyderabad</div>
+                        <div className='a-tag2' href='#'>Tempo traveller in Ahmedabad</div>
                     </div>
                 </div>
             </div>
@@ -56,78 +56,78 @@ export default function Travel() {
                     <ul>
                         <div className="trFlex">
                             <div>
-                                <li className='li-tag'><a className='a-tag2' href='#'>SRS Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Evacay Bus</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Kallada Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>KPN Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Orange Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Parveen Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Rajdhani Express</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>VRL Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Chartered Speed Bus</a></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>SRS Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Evacay Bus</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Kallada Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>KPN Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Orange Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Parveen Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Rajdhani Express</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>VRL Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Chartered Speed Bus</div></li>
 
                             </div>
                             <div>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Bengal Tiger</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>SRM Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Infant Jesus</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Patel Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>JBT Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Shatabdi Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Eagle Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Kanker Roadways</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Komitla</a></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Bengal Tiger</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>SRM Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Infant Jesus</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Patel Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>JBT Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Shatabdi Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Eagle Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Kanker Roadways</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Komitla</div></li>
 
                             </div>
                             <div>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Sri Krishna Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Humsafar Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Mahasagar Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Raj Express</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Sharma Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Shrinath Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Universal Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Verma Travels</a></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Sri Krishna Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Humsafar Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Mahasagar Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Raj Express</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Sharma Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Shrinath Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Universal Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Verma Travels</div></li>
 
                             </div>
                             <div>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Gujarat Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Madurai Radha Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Patel Tours and Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Paulo Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Royal Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Amarnath Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Vaibhav Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Ganesh Travels</a></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Gujarat Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Madurai Radha Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Patel Tours and Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Paulo Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Royal Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Amarnath Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Vaibhav Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Ganesh Travels</div></li>
 
                             </div>
                             <div>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Jabbar Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Jain Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Manish Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Pradhan Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>YBM Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Hebron Transports</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Mahalaxmi travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>MR Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Vivegam Travels</a></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Jabbar Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Jain Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Manish Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Pradhan Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>YBM Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Hebron Transports</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Mahalaxmi travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>MR Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Vivegam Travels</div></li>
 
                             </div>
                             <div>
-                                <li className='li-tag'><a className='a-tag2' href='#'>VST Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Jakhar Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Kaleswari Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Mahendra Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Neeta Tours and Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Yamani Travels</a></li>
-                                <li className='li-tag'><a className='a-tag2' href='#'>Arthi Travels</a></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>VST Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Jakhar Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Kaleswari Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Mahendra Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Neeta Tours and Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Yamani Travels</div></li>
+                                <li className='li-tag'><div className='a-tag2' href='#'>Arthi Travels</div></li>
 
                             </div>
                         </div>
                     </ul>
 
                     <div className="more-link">
-                        <a href="#" className="more-link">{'All Operators >'}</a>
+                        <div href="#" className="more-link">{'All Operators >'}</div>
                     </div>
                 </div>
             </div>
