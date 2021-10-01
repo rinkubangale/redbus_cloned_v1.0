@@ -1,0 +1,40 @@
+.Left {
+  padding: 20px;
+  border: 1px solid red;
+  width: 60%;
+}
+
+/* .Left ul {
+  list-style: none;
+} */
+.Left_filters {
+  /* margin-bottom: 25px; */
+color: #8e8e9b;
+font-size: smaller;
+}
+.Left_top {
+  margin-bottom: 25px;
+color: #8e8e9b;
+font-size: smaller;
+}
+.Left_top > p {
+color: #3e3e52;
+font-weight: bolder;
+border-bottom: 1px solid #ddd;
+padding-bottom: 10px;
+}
+.filter {
+border-bottom: 1px solid #ddd;
+padding: 10px;
+}
+.flexDiv{
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  
+}
+
+input[type="checkbox"]{
+   margin: 0px;
+   border: 1px solid green;
+}

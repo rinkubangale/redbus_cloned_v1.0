@@ -1,60 +1,77 @@
-
+.container{
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+     margin-top: 16%;
+    
+}
 .form {
   display: flex;
   align-items: center;
-  /* height: 50px;
-  width: 900px; */
-  margin: 210px 300px 0px 300px;
 
-}
-.form input {
-  border: none; 
-   height: 100%; 
-   font-size: 16px;
-   width: 100%;
-}
+
+ } 
+
 
 .formDiv{
- 
-  width: 225px;
   border: 1px solid #d2d2d2;
   height: 46px;
+  width: 225px;
   background-color: #fff;
-   border: 1px solid red;
 }
-input:focus {
-  outline: none;
+.formDiv > input{
+  height: 46px;
+  width: 225px;
 }
- .form button {
-    height: 46px;
+.formDivDate{
+  border: 1px solid #d2d2d2;
+  height: 46px;
+  width: 168px;
+  background-color: #fff;
+}
+.formDivDate > input{
+   height: 46px;
+  width: 168px;
+}
+.formDivBtn{
+   height: 46px;
+    width: 144px; 
+
+   /* height: 46px; */
+}
+.formDivBtn > input{
+     height: 46px;
     width: 144px;
     border-width: 0;
     background-color: #d74f57;
     color: #fff;
     font-size: 15px;
     font-weight: 700!important;
-    font-style: normal;
-    font-stretch: normal;
-    text-transform: none;
+    padding-left: 10px;
 }
-/* .input-container input {
-    border: none;
-    box-sizing: border-box;
-    outline: 0;
-    padding: .75rem;
-    position: relative;
-    width: 100%;
-} */
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+ input:focus {
+  outline: none;
+} 
+/* .formDivBtn > button {
+    height: 46px;
+    width: 144px;
+    border-width: 0;
+    background-color: #d74f57;
+    color: #fff;
+    font- size: 15px;
+    font-weight: 700!important; 
+}  */
+
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
     background: transparent;
     bottom: 0;
     color: transparent;
     cursor: pointer;
     height: auto;
     left: 0;
-    position: absolute;
     right: 0;
     top: 0;
     width: auto;
-}
+} */

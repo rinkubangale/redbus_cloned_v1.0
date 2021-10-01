@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { BusSearch } from "../Pages/busSearch";
 import { Cancel } from "../Components/HomePage/CancellationPage/CancelPage";
 import { Notfound } from '../Components/404/Notfound';
+import { BusTicket } from "../Components/HomePage/Busticket/BusTicket";
 
 export const Routes = () => {
 
@@ -28,8 +29,9 @@ export const Routes = () => {
         <Route path="/cancellation">
           <Cancel />
         </Route>
+        <Route path="/bus-ticket" render={(params) => <BusTicket {...params} />} />
         <Route>
-        <Notfound/>
+          <Notfound />
         </Route>
       </Switch>
       <Footer />

@@ -1,0 +1,48 @@
+.Header {
+
+}
+.HeaderOne {
+    
+  background-color: #f8f4f4;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+}
+.HeaderOne > p:nth-child(1) {
+  margin: 10px 0px;
+}
+.HeaderTwo {
+    display: flex;
+    font-size: small;
+    align-items: center;
+  padding: 10px 10px;
+  color: #3e3e52;
+}
+/* .HeaderTwo > * {
+  display: inline-block;
+  margin-right: 10px;
+} */
+/* .HeaderTwo > button {
+  padding: 5px;
+  width: 100px;
+  background-color: #f8f4f4;
+  border: 1px solid black;
+  border-radius: 2px;
+  outline: none;
+} */
+.btn{
+    border: 1px solid #3e3e52;
+    border-radius: 3px;
+    background-color: #f8f4f4;
+    padding: 5px 25px;
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+}
+.btn:hover
+{
+    color: #4a4a4a;
+font-weight: 650;
+
+}
