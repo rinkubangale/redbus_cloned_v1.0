@@ -15,14 +15,14 @@ function SearchSection() {
     const onArrivalChange = (e) => {
       setArrival(e.target.value);
     };
-console.log(departure,arrival,date)
+// console.log(departure,arrival,date)
 
   
   
           async function fetchMyAPI() {
             let response = await fetch(` http://localhost:3008/data`);
             response = await response.json();
-            console.log(response);
+            // console.log(response);
             setInfo(response);
           }
 

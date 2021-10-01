@@ -21,7 +21,7 @@ function BusTicket(props) {
       React.useEffect(() => {
         filtering();
       }, []);
-    console.log(busData,departure,arrival)
+    // console.log(busData,departure,arrival)
   return (
     <div>
       <div><Header departure={departure} arrival={arrival} date = {date} /></div>
