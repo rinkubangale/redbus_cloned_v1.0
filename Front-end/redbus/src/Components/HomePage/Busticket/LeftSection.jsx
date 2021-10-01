@@ -12,7 +12,7 @@ const LeftSection = () => {
     <div className={styles.Left}>
       {/* 1. Basic Filters */}
       <div className={styles.Left_top}>
-        <p>FILTERS</p>
+        <p style={{margin:0}}>FILTERS</p>
         <ul>
           <li>
             <div className={styles.filter}>Live Tracking</div>
@@ -27,7 +27,7 @@ const LeftSection = () => {
       </div>
       {/* 2. Departure Filters */}
       <div className={styles.Left_filters}>
-        <p>DEPARTURE TIME</p>
+        <p style={{margin:'0', color:'#3e3e52' ,fontWeight:'bolder', paddingBottom:'10px'}}>DEPARTURE TIME</p>
         <ul>
           <li className={styles.flexDiv}>
             <input type="checkbox" name="before6am" />
@@ -52,7 +52,7 @@ const LeftSection = () => {
       </div>
       {/* 3. Bus Types Filters */}
       <div className={styles.Left_filters}>
-        <p>BUS TYPES</p>
+        <p style={{margin:'0', color:'#3e3e52' ,fontWeight:'bolder', paddingBottom:'10px'}}>BUS TYPES</p>
         <ul>
           <li className={styles.flexDiv}>
             <input type="checkbox" name="seater" />
@@ -79,7 +79,7 @@ const LeftSection = () => {
       {/* 4. Arrival Time Filters */}
 
       <div className={styles.Left_filters}>
-        <p>ARRIVAL TIME</p>
+        <p style={{margin:'0', color:'#3e3e52' ,fontWeight:'bolder', paddingBottom:'10px'}}>ARRIVAL TIME</p>
         <ul>
           <li className={styles.flexDiv}>
             <input type="checkbox" name="before6am" />
@@ -106,26 +106,26 @@ const LeftSection = () => {
 
       {/* 8. Amenities */}
       <div className={styles.Left_filters}>
-        <p>AMENITIES</p>
+        <p style={{margin:'0', color:'#3e3e52' ,fontWeight:'bolder', paddingBottom:'10px'}}>AMENITIES</p>
         <ul className={styles.Left_filters__amenities}>
-          <li style={{ display: "flex", alignItems: "center" }}>
-            <WifiIcon />
+          <li style={{ display: "flex", border:'1px solid', alignItems: "center" }}>
+            <WifiIcon className={styles.MuiSvgIconRoot} />
             WiFi
           </li>
-          <li style={{ display: "flex", alignItems: "center" }}>
-            <LocalDrinkIcon />
+          <li style={{ display: "flex", border:'1px solid', alignItems: "center" }}>
+            <LocalDrinkIcon className={styles.MuiSvgIconRoot} />
             Water Bottles
           </li>
-          <li style={{ display: "flex", alignItems: "center" }}>
-            <InsertDriveFileIcon />
+          <li style={{ display: "flex", border:'1px solid', alignItems: "center" }}>
+            <InsertDriveFileIcon className={styles.MuiSvgIconRoot} />
             Blankets
           </li>
-          <li style={{ display: "flex", alignItems: "center" }}>
-            <SettingsInputHdmiIcon />
+          <li style={{ display: "flex", border:'1px solid', alignItems: "center" }}>
+            <SettingsInputHdmiIcon className={styles.MuiSvgIconRoot} />
             Charging Point
           </li>
-          <li style={{ display: "flex", alignItems: "center" }}>
-            <LocalMoviesIcon />
+          <li style={{ display: "flex", border:'1px solid', alignItems: "center" }}>
+            <LocalMoviesIcon className={styles.MuiSvgIconRoot} />
             Movie
           </li>
         </ul>
