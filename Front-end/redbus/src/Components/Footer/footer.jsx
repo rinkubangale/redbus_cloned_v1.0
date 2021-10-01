@@ -9,43 +9,43 @@ export default function footer() {
                 <div className='row'>
                     <div className='dib'>About redBus</div>
                     <div>
-                        <a className='a-tag' href='#'>About Us</a>
-                        <a className='a-tag' href='#'>Contact Us</a>
-                        <a className='a-tag' href='#'>Mobile Version</a>
-                        <a className='a-tag' href='#'>redBus on Mobile</a>
-                        <a className='a-tag' href='#'>Sitemap</a>
-                        <a className='a-tag' href='#'>Offers</a>
+                        <div className='a-tag' href='#'>About Us</div>
+                        <div className='a-tag' href='#'>Contact Us</div>
+                        <div className='a-tag' href='#'>Mobile Version</div>
+                        <div className='a-tag' href='#'>redBus on Mobile</div>
+                        <div className='a-tag' href='#'>Sitemap</div>
+                        <div className='a-tag' href='#'>Offers</div>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='dib'>Info</div>
                     <div>
-                        <a className='a-tag' href='#'>{'T & C'} </a>
-                        <a className='a-tag' href='#'>Privacy Policy</a>
-                        <a className='a-tag' href='#'>FAQ </a>
-                        <a className='a-tag' href='#'>Blog </a>
-                        <a className='a-tag' href='#'>Bus Operator Registration</a>
-                        <a className='a-tag' href='#'>Agent Registration</a>
-                        <a className='a-tag' href='#'>Insurance Partner</a>
-                        <a className='a-tag' href='#'>User Agreement</a>
+                        <div className='a-tag' href='#'>{'T & C'} </div>
+                        <div className='a-tag' href='#'>Privacy Policy</div>
+                        <div className='a-tag' href='#'>FAQ </div>
+                        <div className='a-tag' href='#'>Blog </div>
+                        <div className='a-tag' href='#'>Bus Operator Registration</div>
+                        <div className='a-tag' href='#'>Agent Registration</div>
+                        <div className='a-tag' href='#'>Insurance Partner</div>
+                        <div className='a-tag' href='#'>User Agreement</div>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='dib'>Global Sites</div>
                     <div>
-                        <a className='a-tag' href='#'>India</a>
-                        <a className='a-tag' href='#'>Singapore</a>
-                        <a className='a-tag' href='#'>Malaysia</a>
-                        <a className='a-tag' href='#'>Indonesia</a>
-                        <a className='a-tag' href='#'>Peru</a>
-                        <a className='a-tag' href='#'>Colombia</a>
+                        <div className='a-tag' href='#'>India</div>
+                        <div className='a-tag' href='#'>Singapore</div>
+                        <div className='a-tag' href='#'>Malaysia</div>
+                        <div className='a-tag' href='#'>Indonesia</div>
+                        <div className='a-tag' href='#'>Peru</div>
+                        <div className='a-tag' href='#'>Colombia</div>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='dib'>Our Partners</div>
                     <div>
-                        <a className='a-tag' href='#'>Goibibo</a>
-                        <a className='a-tag' href='#'>Makemytrip</a>
+                        <div className='a-tag' href='#'>Goibibo</div>
+                        <div className='a-tag' href='#'>Makemytrip</div>
                     </div>
                 </div>
                 <div className='rights-cont'>
@@ -53,19 +53,19 @@ export default function footer() {
                         <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png" alt="logo" />
                     </div>
                     <div>
-                            <a className='a-tag' href='#'>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</a>
+                            <div className='a-tag' href='#'>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</div>
                             <div className="socialMedia">
-                                <a href="">
+                                <div href="">
                                     <span className='fbicon icon-Facebook'></span>
-                                </a>
-                                <a href="">
+                                </div>
+                                <div href="">
                                     <span className='twittericon icon-Twitter'></span>
-                                </a>
+                                </div>
                             </div>
                     </div>
-                    <a className='a-tag' href='#'>
+                    <div className='a-tag' href='#'>
                         Ⓒ 2021 ibibogroup All rights reserved
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
